@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # dependencies
-gem 'nokogiri', '~> 1.10', '>= 1.10.8'
+gem 'nokogiri', '~> 1.11'
 gem "jekyll", "~> 3.8.5"
 gem "github-pages", "~> 204", group: :jekyll_plugins
 gem 'jekyll-theme-slate', '~> 0.1.1'
